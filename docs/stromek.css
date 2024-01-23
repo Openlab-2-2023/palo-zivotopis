@@ -1,0 +1,55 @@
+html{
+    height: 100px;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0e0d0d;
+}
+
+.tree {
+    position: relative;
+}
+
+.trunk {
+    width: 40px;
+    height: 100px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 8px%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.foliage {
+    position: relative;
+}
+
+.ball {
+    width: 30px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.green {
+    background-color: #ffff00;
+}
+
+.gold {
+    background-color: #ffd700;
+}
